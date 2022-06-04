@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Rezerwuj</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style3.css">
+        <link rel="icon" href="dacotra.svg" sizes="any" type="image/svg+xml">
+        <script src="script2.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="slajdy">
+            <div id="kropki" class="kropki"></div>
+            <div id="wew"></div>
+        </div>
+        <div id="dane" onclick="location.hash='#dane'">
+            <h1 id="tytul">Wczasy w Egipcie</h1>
+            <div id="cena_stara">2699 zł</div>
+            <div id="cena">2099 zł</div>
+            <div id="opis"> Egipt znany jest z szerokich, piaszczystych plaż z łagodnym zejściem od morza. Plaże
+                ciągną się kilometrami i sprzyjają uprawianiu sportów wodnych oraz długim, wieczornym spacerom.
+                Wysokie temperatury w nadmorskich miejscowościach łagodzi chłodny wiatr wiejący od morza,
+                dlatego przez cały rok panują tu wprost idealne warunki do wypoczynku i morskich kąpieli.
+                Miłośnicy dobrego jedzeniamogą zasmakować także lokalnej kuchni, a żądni przygód podróżnicy mogą
+                spróbować jeżdżenia na wielbłądach!</div>
+            <button id="rezerwuj" onclick="r1()">Zarezerwuj teraz</button>
+            <div id="zew">
+                <div id="progress"></div>
+            </div>
+            <div id="liczba">
+                <h2>1. Uczestnicy wycieczki</h2>
+                <div class="label">Dorośli: <input type="number" value="0" min="0" max="99" id="dorosli"> </div>
+                <br>
+                <div class="label">Dzieci: <input type="number" value="0" min="0" max="99" id="dzieci"></div>
+                <button class="dalej" onclick="r2()">Dalej</button>
+            </div>
+            <div id="termin">
+                <h2>2. Termin wycieczki</h2>
+                <button class="dalej" onclick="r3(this.innerText)"></button>
+
+                <button class="dalej" onclick="r3(this.innerText)"></button>
+
+                <button class="dalej" onclick="r3(this.innerText)"></button>
+
+                <button class="dalej" onclick="r3(this.innerText)"></button>
+
+                <button class="dalej" onclick="r3(this.innerText)"></button>
+            </div>
+            <div id="podsumowanie">
+                <h2>3. Rachunek</h2>
+                <table cellspacing="0">
+                    <tr>
+                        <td colspan="4">Wczasy w Egipcie (7 dni)</td>
+                    </tr>
+                    <tr>
+                        <td>Rodzaj biletu</td>
+                        <td>Cena</td>
+                        <td>Ilość</td>
+                        <td>Kwota</td>
+                    </tr>
+                    <tr>
+                        <td>Dzieci</td>
+                        <td>2699 zł</td>
+                        <td id="ld">0</td>
+                        <td id="cd">0 zł</td>
+                    </tr>
+                    <tr>
+                        <td>Dorośli</td>
+                        <td>2699 zł</td>
+                        <td id="ldr">0</td>
+                        <td id="cdr">0 zł</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Suma</td>
+                        <td id="s">0 zł</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Rabat</td>
+                        <td id="rabat">-0 zł</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Do zapłaty</td>
+                        <td id="zaplata">0 zł</td>
+                    </tr>
+                </table>
+                <button class="dalej" onclick="r4()">Dalej</button>
+            </div>
+            <div id="autoryzacja">
+
+                <h2>5. Autoryzacja</h2>
+                <script src="https://apis.google.com/js/platform.js" async defer></script>
+                <meta name="google-signin-client_id"
+                    content="461341845057-4sp8iv3bam2nd85bmn7vls1pmsr4t0nc.apps.googleusercontent.com">
+                <div class="g-signin2" data-width="300" data-onsuccess="r5"></div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
