@@ -78,6 +78,7 @@ function r5(wej) {
 let iw = location.hash.substr(1) * 1
 function start() {
     tytul.innerText = tytuly[iw]
+    tytul2.innerText = tytuly[iw]
     cena_stara.innerText = ceny[iw] + " zł"
     cena.innerText = (ceny[iw] - rabaty[iw]) + " zł"
     opis.innerText = opisy[iw]
