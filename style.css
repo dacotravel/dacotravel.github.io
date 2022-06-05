@@ -351,4 +351,5 @@ main{
 	bottom:30px;
 	font-size: 70px;
 	transform:translateX(-50%);
+	cursor: pointer;
 }
