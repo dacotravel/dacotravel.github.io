@@ -344,6 +344,13 @@ main{
 	top: 33vh;
 	padding: 30px;
 }
+#gl1 h2{
+	position:absolute;
+	color:white;
+	left: 0;
+	top: calc(33vh + 30px);
+	padding: 30px;
+}
 #gl1 span{
 	position:absolute;
 	color:white;
