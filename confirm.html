@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138213276-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138213276-1');
+</script>
+
+  <style>
+    img{
+      width: 400px;
+      margin-left: 50vw;
+      transform: translateX(-50%);
+    }
+    h1{
+      width: 100%;
+      text-align:center;
+      font-size: 40px;
+      font-family: sans-serif;
+    }
+    p{
+      width: 100%;
+      text-align:center;
+      font-size: 20px;
+      font-family: sans-serif;
+    }
+  </style>
+    </head>
+    <script>
+      function start(){
+        history.pushState("","","/")
+      }
+    </script>
+    <body onload="setTimeout(start(),100)">
+
+    <img src="check.svg">
+    <h1>Twoja rezerwacja została zapisana</h1>
+    <p>W ciągu 24 godzin otrzymasz e-maila z potwierdzeniem</p>    
+    
+    </body>
+
+</html>
