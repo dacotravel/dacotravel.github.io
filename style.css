@@ -345,6 +345,7 @@ main{
 	position:absolute;
 	color:white;
 	left: 50%;
-	top: 33vh;
+	bottom:30h;
+	font-size: 30px;
 	transorm:translateX(-50%);
 }
