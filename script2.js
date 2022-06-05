@@ -98,6 +98,7 @@ function start() {
         }
         kropki.appendChild(nw)
     }
+    x()
 }
 ceny = [2199, 3499, 2899, 3299, 2099, 2499, 3499, 3599, 2399, 2199, 2899]
 rabaty = [800, 800, 800, 800, 600, 800, 800, 800, 800, 600, 800]
@@ -129,4 +130,9 @@ obrazy = [
 ];
 dni = [7, 7, 7, 7, 7, 7, 14, 14, 10, 10, 10]
 tytuly = ["Wczasy w Bułgarii", "Wczasy w Chorwacji", "Wczasy w Egipcie", "Wczasy w Grecji", "Wczasy w Rumunii", "Wczasy w Turcji", "Krajowy obóz językowy", "Krajowy obóz jeździecki", "Krajowa wycieczka nad morze", "Krajowa wycieczka w góry", "Wycieczka do Rzymu"]
+function x(){
+    dzieci.value=dzieci.value*1
+    dorosli.value=dorosli.value*1
+    setTimeout(x,10)   
+}
 setTimeout(start, 100)
