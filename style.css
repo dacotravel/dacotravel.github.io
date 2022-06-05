@@ -331,9 +331,12 @@ main{
 	background-image:url("https://cdn.mos.cms.futurecdn.net/xcLR5HMU2kxskdAy3ZVuTf.jpg");
 	background-size:cover;
 	width: 100vw;
-	height: calc(100vh - 50px);
+	height: 100vh;
 }
 #gl1 h1{
 	position:absolute;
 	color:white;
+	left: 0;
+	top: 33vh;
+	padding: 30px;
 }
