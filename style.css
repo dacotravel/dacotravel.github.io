@@ -343,13 +343,16 @@ main{
 	left: 0;
 	top: 33vh;
 	padding: 30px;
+	font-size: 40px;
+	margin:0;
 }
 #gl1 h2{
 	position:absolute;
 	color:white;
 	left: 0;
-	top: calc(33vh + 30px);
+	top: calc(33vh + 50px);
 	padding: 30px;
+	font-size: 40px;
 }
 #gl1 span{
 	position:absolute;
