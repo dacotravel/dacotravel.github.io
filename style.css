@@ -345,7 +345,7 @@ main{
 	position:absolute;
 	color:white;
 	left: 50%;
-	bottom:30h;
-	font-size: 30px;
-	transorm:translateX(-50%);
+	bottom:30px;
+	font-size: 70px;
+	transform:translateX(-50%);
 }
