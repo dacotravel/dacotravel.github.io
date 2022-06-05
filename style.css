@@ -327,6 +327,8 @@ main{
     #nav-img, #nav-mobile{
         display: none;
     }
+    #gl1 h2{
+	    top: calc(33vh + 110px);
 }
 
 #gl1{
