@@ -66,14 +66,13 @@ function r4() {
 }
 function r5(wej) {
     if (autoryzacja.style.display != "unset") {
-        console.log("https://dctrds34549u.w3spaces.com?Egipt=" + dane.tf + "-" + dane.Iv + "-" + dane.ON + "-" + dane.gX + "-" + dzieci.value + "---" + dorosli.value + "-" + termin_data)
-        return
+       return
     }
     location.hash = "#"
     location.hash = "#dane"
     dane = wej.getBasicProfile();
     console.log(dane);
-    location.href = "https://dctrds34549u.w3spaces.com?" + tytuly[i] + "=" + JSON.stringify(dane) + "-" + dzieci.value + "---" + dorosli.value + "-" + termin_data
+    location.href = "confirm.html?" + tytuly[i] + "=" + JSON.stringify(dane) + "-" + dzieci.value + "---" + dorosli.value + "-" + termin_data
 }
 let iw = location.hash.substr(1) * 1
 function start() {
