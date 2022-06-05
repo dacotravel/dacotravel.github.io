@@ -329,6 +329,7 @@ main{
 #gl1{
 	position:relative;
 	background-image:url("https://cdn.mos.cms.futurecdn.net/xcLR5HMU2kxskdAy3ZVuTf.jpg");
+	background-attachment:fixed;
 	background-size:cover;
 	width: 100vw;
 	height: 100vh;
