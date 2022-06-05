@@ -341,3 +341,10 @@ main{
 	top: 33vh;
 	padding: 30px;
 }
+#gl1 span{
+	position:absolute;
+	color:white;
+	left: 50%;
+	top: 33vh;
+	transorm:translateX(-50%);
+}
