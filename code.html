@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kod autoryzacji</title>
+        <script>
+            function start(){
+                qr.src=location.hash.substr(1);
+                setTimeout(s2,100)
+            }
+            function s2(){
+                qr.src=location.hash.substr(1)+" ";
+                setTimeout(start,100)
+            }
+        </script>
+        <style>
+            #qr{
+            width: 30%;
+            }
+        </style>
+</head>
+<body onload="start()">  
+          <table>
+    <tr>
+      <td>
+        <img src="https://dctrds34549u.w3spaces.com/Dacotra.png" style="width:100px;border-radius:50%;padding:20px;">
+      </td>
+      <td>
+        <div style="color:black;font-size: 36px;">Dacotra</div>
+      </td>
+    </tr>
+  </table>
+        <h2>Kod autoryzacji</h2>
+        <img id="qr">
+        <div id="opis">Pokaż ten kod obsłudze, kiedy cię ona o to poprosi.</div>
+</body>
+</html>
