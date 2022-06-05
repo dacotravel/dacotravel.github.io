@@ -1,3 +1,6 @@
+*{
+	scroll-behavior:smooth;
+}
 body{
     font-family: "Railway", sans-serif;
     background-color: rgba(187, 224, 232, 0.441);
