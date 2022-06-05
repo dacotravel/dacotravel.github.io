@@ -325,3 +325,10 @@ main{
         display: none;
     }
 }
+
+#gl1{
+	background-image:url("https://cdn.mos.cms.futurecdn.net/xcLR5HMU2kxskdAy3ZVuTf.jpg");
+	background-attachment:cover;
+	width: 100vw;
+	height: calc(100vh - 50px);
+}
