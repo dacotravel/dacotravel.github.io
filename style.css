@@ -340,6 +340,7 @@ main{
 	font-size: 40px;
 	margin:0;
 	text-shadow: 0px 0px 20px white;
+	animation: show1 0.5s ease-in-out;
 }
 #gl1 h2{
 	position:absolute;
@@ -349,6 +350,26 @@ main{
 	padding: 30px;
 	font-size: 40px;
 	text-shadow: 0px 0px 20px white;
+	animation: show2 1s ease-in-out;
+}
+@keyframes show1{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	{
+}
+@keyframes show2{
+	0%{
+		opacity:0;
+	}
+	50%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
 }
 #gl1 span{
 	position:absolute;
