@@ -323,14 +323,6 @@ main{
     }
 }
 
-@media only screen and (min-width: 700px){
-    #nav-img, #nav-mobile{
-        display: none;
-    }
-    #gl1 h2{
-	    top: calc(33vh + 110px);
-}
-
 #gl1{
 	position:relative;
 	background-image:url("https://cdn.mos.cms.futurecdn.net/xcLR5HMU2kxskdAy3ZVuTf.jpg");
@@ -366,4 +358,13 @@ main{
 	font-size: 70px;
 	transform:translateX(-50%);
 	cursor: pointer;
+}
+
+@media only screen and (min-width: 700px){
+    #nav-img, #nav-mobile{
+        display: none;
+    }
+    #gl1 h2{
+	    top: calc(33vh + 110px);
+	}
 }
